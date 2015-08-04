@@ -1,0 +1,128 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #444444;
+	background: url(../images/blur-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+header {
+	text-align: center;
+	padding: 90px 0 90px 0;
+	background: url(../images/mountain.jpg) center; 
+	background-size: cover;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 700;
+	color: white;
+	text-shadow: 0 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+	color: white;
+	font-size: 24px;
+	text-shadow: 0 5px 3px rgba(0, 0, 0, 0.5);
+	margin: 0 0 40px 0;
+}
+
+nav {
+	background-color: #697A97;
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+nav a{
+
+	color: #fff;
+	text-decoration: none;
+	padding: 25px 25px 25px 25px;
+	display: inline-block;
+}
+
+nav a:hover {
+	background-color: #51617D;
+}
+
+section {
+	max-width: 720px;
+	margin: 0 auto 0 auto;
+	background-color: white;
+	padding:  30px 30px 30px 30px;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+section img {
+	margin-bottom: 20px;
+	border: 2px solid black;
+}
+
+blockquote {
+	text-align: center;
+	background-color: #697A97;
+	max-width: 720px;
+	margin: 30px auto 30px auto;
+	color: white;
+	padding: 40px 80px 40px 80px;
+	font-size: 24px;
+
+}
+
+footer {
+	text-align: center;
+	color: white;
+	text-shadow: 0 5px 3px rgba(0, 0, 0, 0.5);
+	padding: 20px;
+
+}
+
+.intro {
+	text-align: center;
+}
+
+
+@media screen and (max-width: 720px) {
+	
+			h1 {
+				font-size: 32px;
+			}
+			header p {
+				font-size: 16px;
+			}
+			nav {
+				margin: 0 0 10px 0;
+			}
+			nav a {
+				display: block;
+				padding: 10px 25px 10px 25px;
+			}
+			section {
+				margin: 0 10px 0 10px;
+			}
+			blockquote {
+				margin: 5 10px 5 10px;
+				padding: 40px;
+				font-size: 20px;
+			}
+			iframe {
+				max-width: 100%
+			}
+}
